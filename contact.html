@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rosetto | Contact & Reservations</title>
+  <meta name="description" content="Reserve your table at Rosetto or get in touch with our team.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Rosetto">
+  <meta property="og:title" content="Rosetto | Contact & Reservations">
+  <meta property="og:description" content="Reserve your table at Rosetto or get in touch with our team.">
+  <meta property="og:image" content="assets/images/restaurant/exterior-night.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rosetto | Contact & Reservations">
+  <meta name="twitter:description" content="Reserve your table at Rosetto or get in touch with our team.">
+  <meta name="twitter:image" content="assets/images/restaurant/exterior-night.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="apple-touch-icon" href="images/logo.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand" aria-label="Rosetto home">
+        <img class="brand-logo" src="images/logo.png" alt="Rosetto logo">
+        
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a class="is-active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="inner-hero section-spacing">
+      <div class="container" data-reveal>
+        <p class="eyebrow">Book Your Visit</p>
+        <h1>Contact & Reservations</h1>
+        <p>Tell us your preferred date and we will confirm quickly.</p>
+      </div>
+    </section>
+
+    <section class="section-spacing visit-section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Visit Information</p>
+          <h2>Plan Your Visit</h2>
+        </div>
+        <div class="visit-grid">
+          <article class="visit-card" data-reveal>
+            <h3>Address</h3>
+            <p>17 Ember Street, Garden District</p>
+          </article>
+          <article class="visit-card" data-reveal>
+            <h3>Phone</h3>
+            <p>+1 (555) 102-7788</p>
+          </article>
+          <article class="visit-card" data-reveal>
+            <h3>Email</h3>
+            <p>reservations@rosetto.com</p>
+          </article>
+          <article class="visit-card visit-hours" data-reveal>
+            <h3>Opening Hours</h3>
+            <p>Mon-Thu: 12:30 - 22:30</p>
+            <p>Fri-Sat: 12:30 - 23:30</p>
+            <p>Sun: 13:00 - 22:00</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing">
+      <div class="container">
+        <div class="contact-grid">          <form class="reservation-form" data-reveal>
+            <h2>Reserve a Table</h2>
+
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="+1 000 000 0000" required>
+
+            <div class="form-row">
+              <div>
+                <label for="date">Date</label>
+                <input id="date" name="date" type="date" required>
+              </div>
+              <div>
+                <label for="guests">Guests</label>
+                <select id="guests" name="guests" required>
+                  <option value="">Select</option>
+                  <option>1-2</option>
+                  <option>3-4</option>
+                  <option>5-6</option>
+                  <option>7+</option>
+                </select>
+              </div>
+            </div>
+
+            <label for="message">Special Notes</label>
+            <textarea id="message" name="message" rows="4" placeholder="Allergies, celebration, preferred seating..."></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Reservation</button>
+          </form>
+
+          <figure class="contact-side-photo" data-reveal>
+            <img src="assets/images/restaurant/exterior-night.jpg" alt="Rosetto exterior photo">
+          </figure>
+        </div>
+
+        <article class="contact-card contact-map-card contact-map-full" data-reveal>
+          <h3>Find Us</h3>
+          <!-- Replace the query with your real address -->
+          <div class="map-embed-wrap">
+            <iframe
+              title="Rosetto map location"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=17+Ember+Street+Garden+District&output=embed"></iframe>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Rosetto</h3>
+        <p>17 Ember Street, Garden District</p>
+        <p>+1 (555) 102-7788</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Mon-Thu: 12:30 - 22:30</p>
+        <p>Fri-Sat: 12:30 - 23:30</p>
+        <p>Sun: 13:00 - 22:00</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Reservations</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Rosetto.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
